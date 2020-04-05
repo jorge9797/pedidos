@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/ic_person"
+        android:title="Reservas"
+        />
+
+    <item
+    android:id="@+id/menuNotification"
+    android:icon="@drawable/ic_person"
+    android:title="Canchas"
+    />
+
+    <item
+        android:id="@+id/menuCollection"
+        android:icon="@drawable/ic_person"
+        android:title="Edificios"
+        />
+
+    <item
+        android:id="@+id/menuInbox"
+        android:icon="@drawable/ic_person"
+        android:title="Horarios"
+        />
+
+    <item
+        android:id="@+id/menuOrders"
+        android:icon="@drawable/ic_person"
+        android:title="Reportes"
+        />
+
+    <item
+        android:title="Others"
+        >
+        <menu>
+            <item
+                android:id="@+id/menuSettings"
+                android:title="Mi perfil"
+            />
+            <item
+                android:id="@+id/menuAbout"
+                android:title="Acerca de"
+                />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
